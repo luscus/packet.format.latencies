@@ -1,0 +1,40 @@
+{
+  "name": "packet.format.latencies",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./lib/packet.format.latencies",
+  "homepage": "https://github.com/luscus/packet.format.latencies",
+  "author": "https://github.com/luscus/packet.format.latencies/graphs/contributors",
+  "bugs": "https://github.com/luscus/packet.format.latencies/issues",
+  "description": "A packet format wrapping data sended/received by Application Framework sockets specialised on latency statistics",
+  "keywords": [
+    "network",
+    "net",
+    "socket",
+    "packet",
+    "format",
+    "latency"
+  ],
+  "dependencies": {
+    "assert-plus": "0.1.5",
+    "prototype-less": "0.1.2"
+  },
+  "devDependencies": {
+    "socket.packet.base": "0.0.2",
+    "package.loader": "0.2.2",
+    "grunt": "0.4.5",
+    "grunt-license-report": "0.0.8",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-test": "0.10.2",
+    "load-grunt-tasks": "0.6.0",
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luscus/packet.format.latencies.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
